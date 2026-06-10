@@ -103,21 +103,26 @@ const CONFIG = {
       body: 'IBM Data Science',
       body: 'IBM AI Developer (GenAI Apps)',
       body: 'IBM Data Analyst',
+    },// 證照、語言檢定（例如未來考取的 IELTS 分數）可以寫在這裡
+    {
       name: 'Google',
       body: 'Google AI',
       body: 'Google Data Analytics',
-      body: 'IBM Data Analyst',
       body: 'Google Project Management (Agile)',
       body: 'Google Digital Marketing',
+    },
+    {
       name: 'Microsoft',
       body: 'Microsoft Power BI (PL-300)',
-      body: 'IBM AI Developer (GenAI Apps)',
-      body: 'IBM Data Analyst',
+    },
+    {
       name: 'Meta',
       body: 'Meta Data Analyst',
+    },
+    {
       name: 'NVIDIA',
       body: 'NVIDIA Networking',
-    },// 證照、語言檢定（例如未來考取的 IELTS 分數）可以寫在這裡
+    },
   ],
   educations: [
     {
