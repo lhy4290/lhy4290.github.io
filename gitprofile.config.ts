@@ -16,10 +16,10 @@ const CONFIG = {
       mode: 'automatic', // 自動抓取
       automatic: {
         sortBy: 'updated', // 改為依據最後更新時間排序，讓新專案排前面
-        limit: 8, // 畫面上最多顯示幾個專案
+        limit: 10, // 畫面上最多顯示幾個專案
         exclude: {
           forks: false, 
-          projects: ['mywebsitematerial', 'Kaggle', '104-Community-Data-Analysis'], // 這裡可以填入你不想顯示在首頁的專案名稱
+          projects: ['mywebsitematerial', 'Kaggle', '104-Community-Data-Analysis', 'lhy4290', 'lhy4290.github.io'], // 這裡可以填入你不想顯示在首頁的專案名稱
         },
       },
       manual: {
@@ -57,7 +57,7 @@ const CONFIG = {
     telegram: '',
     website: '', // 如果有其他個人網站可以放這
     phone: '',
-    email: '', // 可以填入你的聯絡信箱
+    email: 'iris.liu4290@gmail.com', // 可以填入你的聯絡信箱
   },
   resume: {
     fileUrl: '', // 留空會自動隱藏「下載履歷」按鈕，之後有 PDF 履歷可以上傳雲端後貼過來
@@ -65,23 +65,51 @@ const CONFIG = {
   skills: [
     'Python',
     'Pandas',
+    'HTML',
+    'JavaScript',
     'Data Analysis',
     'Data Visualization',
-    'Git',
+    'Power BI',
     'Markdown',
     'Finance & Information Management',
   ],
   experiences: [
     // 如果目前想先隱藏工作經驗，可以把整段刪除或留空。以下為預設範本，可自行修改：
     {
-      company: '專案實習/合作單位名稱',
-      position: '職稱/角色',
-      from: '2026-01',
-      to: 'Present',
-      companyLink: '',
+      company: '104 Corporation',
+      position: 'Social Marketing Data Analysis',
+      from: '2024-07',
+      to: '2025-07',
+      companyLink: 'https://www.instagram.com/104student/',
+    },
+    {
+      company: 'UNIQLO',
+      position: 'Employer Branding',
+      from: '2024-10',
+      to: '2025-05',
+      companyLink: 'https://www.fastretailing.com/employment/zh_cht/about/tw/brands.html',
+    },
+    {
+      company: 'UNIQLO',
+      position: 'Employer Branding',
+      from: '2024-10',
+      to: '2025-05',
+      companyLink: 'https://www.fastretailing.com/employment/zh_cht/about/tw/brands.html',
     },
   ],
   certifications: [
+    {
+      name: 'IBM',
+      body: 'IBM Data Science','IBM AI Developer (GenAI Apps)','IBM Data Analyst',
+      name: 'Google',
+      body: 'Google AI','Google Data Analytics','IBM Data Analyst','Google Project Management (Agile)','Google Digital Marketing',
+      name: 'Microsoft',
+      body: 'Microsoft Power BI (PL-300)','IBM AI Developer (GenAI Apps)','IBM Data Analyst',
+      name: 'Meta',
+      body: 'Meta Data Analyst',
+      name: 'NVIDIA',
+      body: 'NVIDIA Networking',
+    },
     // 證照、語言檢定（例如未來考取的 IELTS 分數）可以寫在這裡
   ],
   educations: [
@@ -89,7 +117,7 @@ const CONFIG = {
       institution: 'National Taipei University of Technology (NTUT)',
       degree: 'Finance and Information Management',
       from: '2023',
-      to: 'Present',
+      to: '2027',
     },
   ],
   publications: [], // 論文發表，沒有的話保持空陣列
