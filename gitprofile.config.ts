@@ -16,7 +16,7 @@ const CONFIG = {
       mode: 'automatic', // 自動抓取
       automatic: {
         sortBy: 'updated', // 改為依據最後更新時間排序，讓新專案排前面
-        limit: 10, // 畫面上最多顯示幾個專案
+        limit: 6, // 畫面上最多顯示幾個專案
         exclude: {
           forks: false, 
           projects: ['mywebsitematerial', 'Kaggle', '104-Community-Data-Analysis', 'lhy4290', 'lhy4290.github.io'], // 這裡可以填入你不想顯示在首頁的專案名稱
@@ -99,29 +99,64 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'IBM',
-      body: 'IBM Data Science',
-      body: 'IBM AI Developer (GenAI Apps)',
-      body: 'IBM Data Analyst',
+      name: 'IBM Data Science',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
+    },
+    {
+      name: 'IBM AI Developer (GenAI Apps)',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
     },// 證照、語言檢定（例如未來考取的 IELTS 分數）可以寫在這裡
     {
-      name: 'Google',
-      body: 'Google AI',
-      body: 'Google Data Analytics',
-      body: 'Google Project Management (Agile)',
-      body: 'Google Digital Marketing',
+      name: 'IBM Data Analyst',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
     },
     {
-      name: 'Microsoft',
-      body: 'Microsoft Power BI (PL-300)',
+      name: 'Google AI',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
     },
     {
-      name: 'Meta',
-      body: 'Meta Data Analyst',
+      name: 'Google Data Analytics',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
     },
     {
-      name: 'NVIDIA',
-      body: 'NVIDIA Networking',
+      name: 'Google Project Management (Agile)',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
+    },
+    {
+      name: 'Google Digital Marketing',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
+    },
+    {
+      name: 'Meta Data Analyst',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
+    },
+    {
+      name: 'Microsoft Power BI (PL-300)',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
+    },
+    {
+      name: 'NVIDIA Networking',
+      body: 'Professional Certificate',
+      year: '2026',
+      link: '',
     },
   ],
   educations: [
