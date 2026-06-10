@@ -100,17 +100,24 @@ const CONFIG = {
   certifications: [
     {
       name: 'IBM',
-      body: 'IBM Data Science','IBM AI Developer (GenAI Apps)','IBM Data Analyst',
+      body: 'IBM Data Science',
+      body: 'IBM AI Developer (GenAI Apps)',
+      body: 'IBM Data Analyst',
       name: 'Google',
-      body: 'Google AI','Google Data Analytics','IBM Data Analyst','Google Project Management (Agile)','Google Digital Marketing',
+      body: 'Google AI',
+      body: 'Google Data Analytics',
+      body: 'IBM Data Analyst',
+      body: 'Google Project Management (Agile)',
+      body: 'Google Digital Marketing',
       name: 'Microsoft',
-      body: 'Microsoft Power BI (PL-300)','IBM AI Developer (GenAI Apps)','IBM Data Analyst',
+      body: 'Microsoft Power BI (PL-300)',
+      body: 'IBM AI Developer (GenAI Apps)',
+      body: 'IBM Data Analyst',
       name: 'Meta',
       body: 'Meta Data Analyst',
       name: 'NVIDIA',
       body: 'NVIDIA Networking',
-    },
-    // 證照、語言檢定（例如未來考取的 IELTS 分數）可以寫在這裡
+    },// 證照、語言檢定（例如未來考取的 IELTS 分數）可以寫在這裡
   ],
   educations: [
     {
