@@ -19,7 +19,7 @@ const CONFIG = {
         limit: 8, // 畫面上最多顯示幾個專案
         exclude: {
           forks: false, 
-          projects: ['mywebsitematerial'], // 這裡可以填入你不想顯示在首頁的專案名稱
+          projects: ['mywebsitematerial', 'Kaggle', '104-Community-Data-Analysis'], // 這裡可以填入你不想顯示在首頁的專案名稱
         },
       },
       manual: {
