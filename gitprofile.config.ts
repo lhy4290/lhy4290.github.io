@@ -29,14 +29,7 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // 如果目前沒有非 GitHub 的外部專案，保持空陣列 [] 就不會顯示這區塊
-      projects: [
-        {
-          title: 'My Websit',
-          description: 'About my personal webpage and marketing materials',
-          imageUrl: 'https://github.com/lhy4290/mywebsitematerial/blob/main/page.png', 
-          link: 'https://github.com/lhy4290/Portfolio', // 直接導流到你的 Portfolio 專案
-        },
-      ],
+      projects: [],
     },
   },
   seo: { 
