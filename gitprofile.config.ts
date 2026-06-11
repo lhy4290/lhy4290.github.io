@@ -38,12 +38,20 @@ const CONFIG = {
       // 如果目前沒有非 GitHub 的外部專案，保持空陣列 [] 就不會顯示這區塊
       projects: [
         {
-          title: 'Project Name',
+          title: 'Startup proposal collection system',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Ideas and creativity of fundraising systems.',
+          imageUrl:
+            'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/2.png?raw=true',
+          link: 'https://drive.google.com/file/d/1Dbycx6vHATuKa_WNb8NdEhke2upC2Wo-/view?usp=drive_link',
+        },
+        {
+          title: 'International Marketing Plan for Air Purifiers',
+          description:
+            'Marketing strategies for selling products in overseas markets',
           imageUrl:
             'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/1.png?raw=true',
-          link: 'https://github.com/lhy4290/global_placement/blob/main/%E8%B7%A8%E5%9C%8B%E5%B0%B1%E6%A5%AD%E8%96%AA%E8%B3%87%E6%99%BA%E8%83%BD%E8%A9%95%E4%BC%B0%E7%B3%BB%E7%B5%B1.pdf',
+          link: 'https://drive.google.com/file/d/1Vk-mVr-Xiw0fYFXfRjzAwfELAjGqff2K/view?usp=drive_link',
         },
       ],
     },
