@@ -16,10 +16,17 @@ const CONFIG = {
       mode: 'automatic', // 自動抓取
       automatic: {
         sortBy: 'updated', // 改為依據最後更新時間排序，讓新專案排前面
-        limit: 6, // 畫面上最多顯示幾個專案
+        limit: 7, // 畫面上最多顯示幾個專案
         exclude: {
           forks: false, 
-          projects: ['mywebsitematerial', 'Kaggle', '104-Community-Data-Analysis', 'lhy4290/lhy4290', 'lhy4290/lhy4290.github.io'], // 這裡可以填入你不想顯示在首頁的專案名稱
+          projects: [
+            'lhy4290/mywebsitematerial', 
+            'lhy4290/Kaggle', 
+            'lhy4290/104-Community-Data-Analysis', 
+            'lhy4290/lhy4290', 
+            'lhy4290/lhy4290.github.io',
+            'lhy4290/Portfolio'
+          ], // 這裡可以填入你不想顯示在首頁的專案名稱
         },
       },
       manual: {
