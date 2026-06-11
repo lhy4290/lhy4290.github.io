@@ -42,7 +42,7 @@ const CONFIG = {
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://www.pexels.com/zh-tw/photo/4386407/',
+            'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/1.png?raw=true',
           link: 'https://github.com/lhy4290/global_placement/blob/main/%E8%B7%A8%E5%9C%8B%E5%B0%B1%E6%A5%AD%E8%96%AA%E8%B3%87%E6%99%BA%E8%83%BD%E8%A9%95%E4%BC%B0%E7%B3%BB%E7%B5%B1.pdf',
         },
       ],
