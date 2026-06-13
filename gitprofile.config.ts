@@ -30,11 +30,11 @@ const CONFIG = {
         },
       },
       manual: {
-        projects: [], 
+        projects: ['lhy4290/global_placement'], 
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Business Projects',
       // 如果目前沒有非 GitHub 的外部專案，保持空陣列 [] 就不會顯示這區塊
       projects: [
         {
