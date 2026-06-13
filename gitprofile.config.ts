@@ -16,7 +16,7 @@ const CONFIG = {
       mode: 'manual', // 自動抓取
       automatic: {
         sortBy: 'updated', // 改為依據最後更新時間排序，讓新專案排前面
-        limit: 7, // 畫面上最多顯示幾個專案
+        limit: 8, // 畫面上最多顯示幾個專案
         exclude: {
           forks: false, 
           projects: [], // 這裡可以填入你不想顯示在首頁的專案名稱
@@ -29,7 +29,8 @@ const CONFIG = {
           'lhy4290/SpaceDataCollection',
           'lhy4290/Tesla-Customer-Relationship-Analysis',
           'lhy4290/PowerBI',
-          'lhy4290/WhoisBoss'
+          'lhy4290/WhoisBoss',
+          'lhy4290/Optimization'
         ], 
       },
     },
@@ -38,21 +39,27 @@ const CONFIG = {
       projects: [
         // ---- Special Projects 區區 ----
         {
-          title: 'Big Data Salary Prediction Simulation System',
-          description: '【Special Project】\nSolving the problem of opaque job and salary information abroad.',
+          title: '【Special Project】<br />Enterprise Decision Support System Combining Generative Artificial Intelligence and Constrained Optimization',
+          description: 'Solving enterprise logistics route problems.',
+          imageUrl: 'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/4.png?raw=true',
+          link: 'https://drive.google.com/drive/folders/1lDnk9YRvKD0ediuuTrLIamEBUsVrDJmo?usp=drive_link',
+        },
+        {
+          title: '【Special Project】<br />Big Data Salary Prediction Simulation System',
+          description: 'Solving the problem of opaque job and salary information abroad.',
           imageUrl: 'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/3.png?raw=true',
-          link: 'https://drive.google.com/file/d/1mAL4kXY98oTG6DASm9uPX7t3b6vIS9Lb/view?usp=drive_link',
+          link: 'https://drive.google.com/drive/folders/1AuniF2BGd4yOWWtZ2QE3SHsM9G0JeKd3?usp=drive_link',
         },
         // ---- Business Projects 區區 ----
         {
-          title: 'Startup proposal collection system',
-          description: '【Business Project】\nIdeas and creativity of fundraising systems.',
+          title: '【Business Project】<br />Startup proposal collection system',
+          description: '【Business Project】Ideas and creativity of fundraising systems.',
           imageUrl: 'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/2.png?raw=true',
           link: 'https://drive.google.com/file/d/1Dbycx6vHATuKa_WNb8NdEhke2upC2Wo-/view?usp=drive_link',
         },
         {
-          title: 'International Marketing Plan for Air Purifiers',
-          description: '【Business Project】\nMarketing strategies for selling products in overseas markets',
+          title: '【Business Project】<br />International Marketing Plan for Air Purifiers',
+          description: 'Marketing strategies for selling products in overseas markets',
           imageUrl: 'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/1.png?raw=true',
           link: 'https://drive.google.com/file/d/1Vk-mVr-Xiw0fYFXfRjzAwfELAjGqff2K/view?usp=drive_link',
         },
