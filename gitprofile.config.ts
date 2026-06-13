@@ -13,44 +13,47 @@ const CONFIG = {
     github: {
       display: true, // 自動顯示 GitHub 專案
       header: 'Github Projects',
-      mode: 'automatic', // 自動抓取
+      mode: 'manual', // 自動抓取
       automatic: {
         sortBy: 'updated', // 改為依據最後更新時間排序，讓新專案排前面
         limit: 7, // 畫面上最多顯示幾個專案
         exclude: {
           forks: false, 
-          projects: [
-            'lhy4290/mywebsitematerial', 
-            'lhy4290/Kaggle', 
-            'lhy4290/104-Community-Data-Analysis', 
-            'lhy4290/lhy4290', 
-            'lhy4290/lhy4290.github.io',
-            'lhy4290/Portfolio'
-          ], // 這裡可以填入你不想顯示在首頁的專案名稱
+          projects: [], // 這裡可以填入你不想顯示在首頁的專案名稱
         },
       },
       manual: {
-        projects: ['lhy4290/global_placement'], 
+        projects: [
+          'lhy4290/global_placement',
+          'lhy4290/Comprehensive-Developer-Ecosystem-Analysis',
+          'lhy4290/SpaceDataCollection',
+          'lhy4290/Tesla-Customer-Relationship-Analysis',
+          'lhy4290/PowerBI',
+          'lhy4290/WhoisBoss'
+        ], 
       },
     },
     external: {
-      header: 'Business Projects',
-      // 如果目前沒有非 GitHub 的外部專案，保持空陣列 [] 就不會顯示這區塊
+      header: 'Business & Special Projects', 
       projects: [
+        // ---- Special Projects 區區 ----
+        {
+          title: 'Big Data Salary Prediction Simulation System',
+          description: '【Special Project】\nSolving the problem of opaque job and salary information abroad.',
+          imageUrl: 'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/3.png?raw=true',
+          link: 'https://drive.google.com/file/d/1mAL4kXY98oTG6DASm9uPX7t3b6vIS9Lb/view?usp=drive_link',
+        },
+        // ---- Business Projects 區區 ----
         {
           title: 'Startup proposal collection system',
-          description:
-            'Ideas and creativity of fundraising systems.',
-          imageUrl:
-            'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/2.png?raw=true',
+          description: '【Business Project】\nIdeas and creativity of fundraising systems.',
+          imageUrl: 'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/2.png?raw=true',
           link: 'https://drive.google.com/file/d/1Dbycx6vHATuKa_WNb8NdEhke2upC2Wo-/view?usp=drive_link',
         },
         {
           title: 'International Marketing Plan for Air Purifiers',
-          description:
-            'Marketing strategies for selling products in overseas markets',
-          imageUrl:
-            'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/1.png?raw=true',
+          description: '【Business Project】\nMarketing strategies for selling products in overseas markets',
+          imageUrl: 'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/1.png?raw=true',
           link: 'https://drive.google.com/file/d/1Vk-mVr-Xiw0fYFXfRjzAwfELAjGqff2K/view?usp=drive_link',
         },
       ],
