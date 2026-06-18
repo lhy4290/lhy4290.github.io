@@ -30,7 +30,8 @@ const CONFIG = {
           'lhy4290/Tesla-Customer-Relationship-Analysis',
           'lhy4290/PowerBI',
           'lhy4290/WhoisBoss',
-          'lhy4290/Optimization'
+          'lhy4290/Optimization',
+          'lhy4290/FinTech'
         ], 
       },
     },
@@ -53,7 +54,7 @@ const CONFIG = {
         // ---- Business Projects 區區 ----
         {
           title: '【Business Project】 Startup proposal collection system',
-          description: '【Business Project】Ideas and creativity of fundraising systems',
+          description: 'Ideas and creativity of fundraising systems',
           imageUrl: 'https://github.com/lhy4290/mywebsitematerial/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88/2.png?raw=true',
           link: 'https://drive.google.com/file/d/1Dbycx6vHATuKa_WNb8NdEhke2upC2Wo-/view?usp=drive_link',
         },
