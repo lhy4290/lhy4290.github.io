@@ -96,7 +96,7 @@ const CONFIG = {
     stackoverflow: '', 
     discord: '',
     telegram: '',
-    website: 'https://lhy4290.github.io/Portfolio/LIUHENGYU.html', // 如果有其他個人網站可以放這
+    website: '', // 如果有其他個人網站可以放這
     phone: '',
     email: 'iris.liu4290@gmail.com', // 可以填入你的聯絡信箱
   },
