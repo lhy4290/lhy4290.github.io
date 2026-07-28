@@ -131,11 +131,11 @@ const CONFIG = {
       companyLink: 'https://www.fastretailing.com/employment/zh_cht/about/tw/brands.html',
     },
     {
-      company: 'UNIQLO',
-      position: 'Employer Branding',
+      company: 'SPONYA',
+      position: 'Social Marketing Data Analysis',
       from: '2024-10',
       to: '2025-05',
-      companyLink: 'https://www.fastretailing.com/employment/zh_cht/about/tw/brands.html',
+      companyLink: 'https://sponya.co/',
     },
   ],
   certifications: [
