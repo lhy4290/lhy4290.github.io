@@ -31,7 +31,8 @@ const CONFIG = {
           'lhy4290/PowerBI',
           'lhy4290/WhoisBoss',
           'lhy4290/Optimization',
-          'lhy4290/FinTech'
+          'lhy4290/FinTech',
+          'DreamerForJay/kinsun.ai'
         ], 
       },
     },
