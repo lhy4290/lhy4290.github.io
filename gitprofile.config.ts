@@ -33,7 +33,8 @@ const CONFIG = {
           'lhy4290/Optimization',
           'lhy4290/FinTech',
           'DreamerForJay/kinsun.ai',
-          'lhy4290/HackRail-TransferPlatform'
+          'lhy4290/HackRail-TransferPlatform',
+          'lhy4290/PrecogRail'
         ], 
       },
     },
