@@ -200,6 +200,12 @@ const CONFIG = {
       year: '2026',
       link: '',
     },
+    {
+      name: 'AWS Cloud Practitioner Essentials',
+      body: 'Training & Certification',
+      year: '2026',
+      link: '',
+    },
   ],
   educations: [
     {
@@ -207,6 +213,12 @@ const CONFIG = {
       degree: 'Finance and Information Management',
       from: '2023',
       to: '2027',
+    },
+    {
+      institution: 'FH Technikum Wien ',
+      degree: 'Business Informatics',
+      from: '2025',
+      to: '2026',
     },
   ],
   publications: [], // 論文發表，沒有的話保持空陣列
