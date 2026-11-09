@@ -222,7 +222,32 @@ const CONFIG = {
       to: '2026',
     },
   ],
-  publications: [], // 論文發表，沒有的話保持空陣列
+  publications: [
+    {
+      title:
+        'A Vehicle Routing System Integrating Google Route Optimization API and Generative Artificial Intelligence',
+      conferenceName:
+        '2026 International Symposium on Novel and Sustainable Technology (ISNST 2026), Tainan, Taiwan — Oral Presentation',
+      journalName: '',
+      authors:
+        'Chien Wen Wu, Heng Yu Liu, Ming Hui Lee, Po Han Yen, Ling Wei Huang, Yu Syuan Chen, Hui Yu Lo, Shih Yin Wu',
+      link: 'https://isnst.eng.stust.edu.tw/2026/',
+      description:
+        'Lead developer and presenter. Proposed a three-module pipeline in which an LLM (LangChain + Gemini 2.5 Pro) turns free-text delivery notes into validated routing constraints, the Google Route Optimization API plans fleet routes, and an explainable-AI layer explains each routing decision in plain language.',
+    },
+    {
+      title:
+        'Enterprise Decision Support System Combining Generative AI and Constrained Optimization',
+      conferenceName:
+        '2026 Symposium on Smart Living Technology and Management (SLTM 2026), Huafan University, Taiwan',
+      journalName: '',
+      authors:
+        'Chien Wen Wu, Heng Yu Liu, Ming Hui Lee, Po Han Yen, Ling Wei Huang, Yu Syuan Chen, Hui Yu Lo, Shih Yin Wu',
+      link: 'https://github.com/lhy4290/Optimization',
+      description:
+        'Lead developer and co-author. Built a decision support prototype that converts natural-language logistics requests into Vehicle Routing Problem inputs and returns optimised routes, with built-in handling of incomplete addresses, missing departure times and overloaded vehicles.',
+    },
+  ],
   blog: {
     source: 'dev', 
     username: '', // 留空會隱藏部落格區塊
