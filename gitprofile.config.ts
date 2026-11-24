@@ -33,7 +33,8 @@ const CONFIG = {
           'DreamerForJay/kinsun.ai',
           'lhy4290/HackRail-TransferPlatform',
           'lhy4290/PrecogRail',
-          'lhy4290/ScrewSense'
+          'lhy4290/ScrewSense',
+          'lhy4290/SubsidySystem'
         ], 
       },
     },
@@ -77,7 +78,7 @@ const CONFIG = {
   },
   seo: { 
     title: 'Portfolio of Heng-Yu Liu', 
-    description: 'Finance and Information Management Student | Data Analysis Portfolio', 
+    description: 'Information and Financial Management Student | Portfolio', 
     imageURL: '' 
   },
   social: {
@@ -204,6 +205,12 @@ const CONFIG = {
     {
       name: 'AWS Cloud Practitioner Essentials',
       body: 'Training & Certification',
+      year: '2026',
+      link: '',
+    },
+    {
+      name: 'Google Cybersecurity',
+      body: 'Professional Certificate',
       year: '2026',
       link: '',
     },
